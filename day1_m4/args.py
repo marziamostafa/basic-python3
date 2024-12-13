@@ -31,3 +31,12 @@ def multiply3(*num): #arbitrary positional arguments tuple
     return result
 final_result=multiply3(4,5,6,7,8)
 print(final_result)
+
+# tuple and usual parameter
+def multiply4(num1,num2,*num): #arbitrary positional arguments tuple
+    result=1
+    print(num1,num2,num)
+    print(type(num))
+    #return result
+final_result=multiply4(4,5,6,7,8)
+print(final_result)
