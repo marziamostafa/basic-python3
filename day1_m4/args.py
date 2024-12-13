@@ -10,3 +10,24 @@ def multiply(num1,num2=3):
     return result
 output= multiply(5)
 print(output)
+
+# tuple
+
+def multiply2(*num): #arbitrary positional arguments tuple
+    print(num)
+    print(type(num))
+    #return result
+final_result=multiply2(4,5,6)
+print(final_result)
+
+# tuple with loop
+
+def multiply3(*num): #arbitrary positional arguments tuple
+    result=1
+    for n in num:
+        result=result*n
+        #print(n)
+    print(type(num))
+    return result
+final_result=multiply3(4,5,6,7,8)
+print(final_result)
