@@ -11,3 +11,17 @@ Function:
 Get python built-in module list- https://docs.python.org/3/py-modindex.html 
 
 Built-in functions- https://docs.python.org/3/library/functions.html
+
+python packages- https://pypi.org/
+
+## pip- official package manager for python
+-->It allows you to install, manage, and uninstall Python packages from the Python Package Index (PyPI) or other sources.
+
+--> check version: pip --version
+
+
+## PyAutoGUI
+--> PyAutoGUI is a Python library that allows you to programmatically control the mouse and keyboard to automate tasks on your computer. With PyAutoGUI, you can perform actions like moving the mouse, clicking, typing text, and interacting with the graphical user interface of applications.
+
+--> documentation in: https://pypi.org/project/PyAutoGUI/
+--> install: pip install PyAutoGUI
