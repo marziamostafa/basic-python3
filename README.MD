@@ -7,3 +7,7 @@ Function:
 6. tuple- when with one parameter multiple arguments can be passed on; serves as array
 7. kargs- Tuple Parameter in Keyword Arguments; in python it's called dictionary; ('key': value) pair; used **
 8. can do for loop in kargs with kargs.items()
+
+Get python built-in module list- https://docs.python.org/3/py-modindex.html 
+
+Built-in functions- https://docs.python.org/3/library/functions.html
