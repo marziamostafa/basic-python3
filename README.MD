@@ -1,4 +1,4 @@
-Function:
+# Function:
 1. to define a funtion we use - def
 2. indentation is important here as we don't use {} for function body
 3. to print something we write print()- it's also a function
@@ -24,4 +24,14 @@ python packages- https://pypi.org/
 --> PyAutoGUI is a Python library that allows you to programmatically control the mouse and keyboard to automate tasks on your computer. With PyAutoGUI, you can perform actions like moving the mouse, clicking, typing text, and interacting with the graphical user interface of applications.
 
 --> documentation in: https://pypi.org/project/PyAutoGUI/
+
 --> install: pip install PyAutoGUI
+
+## OpenCV (Open Source Computer Vision)
+is a library designed to process images and videos to Perform operations like face detection, object tracking, and optical flow. Develop advanced computer vision and machine learning solutions. 
+
+--> opencv-contrib-python is a Python package that provides bindings for OpenCV. The "contrib" part of the name refers to the extra modules that are included in this package, which are not part of the core OpenCV library.
+
+--> documentation: https://pypi.org/project/opencv-contrib-python/
+
+--> install: pip install opencv-contrib-python
