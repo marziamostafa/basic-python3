@@ -41,3 +41,13 @@ is a library designed to process images and videos to Perform operations like fa
 
 # list
 1. in list (like array) indexing is possible to the reversed way (-1,-2 )
+2. alternative of push : append() -> add item at the eand of the list
+3. insert(i,x) ->inserting at a particular position
+4. remove(x)  -> removing given value.
+5. pop() -> removing the last item from the list
+6. pop([i])  -> can also add index number
+7. clear()  -> removing everything
+8.  count()  -> how many items are there on the list
+9. reverse()  -> to reverse the array; also possible like list[ : : -1]
+10. sort()  -> important one. sort items in the list
+11. copy()  -> return a shallow copy of the list

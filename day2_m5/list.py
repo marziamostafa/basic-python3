@@ -19,4 +19,4 @@ print(num[-2:-8:-1])  # step will be incremented by 1
 print(num[-2:-8:-2])  # step will be incremented by 2
 
 print(num[:])  # no start and end; so full array will be printed
-print(num[: : -1]) # full array in reversed way
+print(num[: : -1]) # full array in reversed way; also possible with reverse()
