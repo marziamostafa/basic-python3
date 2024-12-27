@@ -35,3 +35,9 @@ is a library designed to process images and videos to Perform operations like fa
 --> documentation: https://pypi.org/project/opencv-contrib-python/
 
 --> install: pip install opencv-contrib-python
+
+## Exceptions:
+--> https://docs.python.org/3/tutorial/errors.html
+
+# list
+1. in list (like array) indexing is possible to the reversed way (-1,-2 )
