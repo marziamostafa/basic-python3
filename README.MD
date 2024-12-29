@@ -69,5 +69,5 @@ use of '()' only ;(not [] or {})
 3. but if we give mutable vlaue in tuple we can change
 4. tuple() - make a tuple from any list
 
-# dictionary
+# dictionaries
 https://docs.python.org/3/tutorial/datastructures.html#dictionaries
