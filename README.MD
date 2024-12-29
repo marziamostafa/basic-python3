@@ -4,7 +4,7 @@
 3. to print something we write print()- it's also a function
 4. without 'return' if we assign variable to a functon it will hold 'none' value
 5. optional parameter: when we give a default parameter in function; default parameter must be in right side  
-6. tuple- when with one parameter multiple arguments can be passed on; serves as array
+6. tuple- when with one parameter multiple arguments can be passed on; serves as array (args)
 7. kargs- Tuple Parameter in Keyword Arguments; in python it's called dictionary; ('key': value) pair; used **
 8. can do for loop in kargs with kargs.items()
 9. 'global' keyword only works inside a function
@@ -52,6 +52,8 @@ is a library designed to process images and videos to Perform operations like fa
 10. sort()  -> important one. sort items in the list
 11. copy()  -> return a shallow copy of the list
 
+
+# data structure similar to list- set , tuple
 # set
 array alike , but where can only store unique values
 1. to create setwe can use '{}' or 'set()'
@@ -59,3 +61,10 @@ array alike , but where can only store unique values
 3. we cannot add duplicate numbers
 4. remove() - to remove any element from the set
 5. len() - length of the set
+
+# tuple
+use of '()' only ;(not [] or {}) 
+1. tuple is immutable - we cannot change it
+2. we can access tuple
+3. but if we give mutable vlaue in tuple we can change
+4. tuple() - make a tuple from any list
