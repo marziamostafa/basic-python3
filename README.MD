@@ -7,7 +7,7 @@
 6. tuple- when with one parameter multiple arguments can be passed on; serves as array
 7. kargs- Tuple Parameter in Keyword Arguments; in python it's called dictionary; ('key': value) pair; used **
 8. can do for loop in kargs with kargs.items()
-
+9. 'global' keyword only works inside a function
 Get python built-in module list- https://docs.python.org/3/py-modindex.html 
 
 Built-in functions- https://docs.python.org/3/library/functions.html
@@ -51,3 +51,11 @@ is a library designed to process images and videos to Perform operations like fa
 9. reverse()  -> to reverse the array; also possible like list[ : : -1]
 10. sort()  -> important one. sort items in the list
 11. copy()  -> return a shallow copy of the list
+
+# set
+array alike , but where can only store unique values
+1. to create setwe can use '{}' or 'set()'
+2. to add any element in the set we use - add()
+3. we cannot add duplicate numbers
+4. remove() - to remove any element from the set
+5. len() - length of the set
