@@ -56,7 +56,7 @@ is a library designed to process images and videos to Perform operations like fa
 # data structure similar to list- set , tuple
 # set
 array alike , but where can only store unique values
-1. to create setwe can use '{}' or 'set()'
+1. to create set we can use '{}' or 'set()'
 2. to add any element in the set we use - add()
 3. we cannot add duplicate numbers
 4. remove() - to remove any element from the set
@@ -71,3 +71,8 @@ use of '()' only ;(not [] or {})
 
 # dictionaries
 https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+
+# enumerate
+https://docs.python.org/3/library/functions.html#enumerate
+
+enumerate() --> gives the index number of a list in for loop
