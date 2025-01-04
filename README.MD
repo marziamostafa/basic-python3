@@ -78,7 +78,17 @@ https://docs.python.org/3/library/functions.html#enumerate
 enumerate() --> gives the index number of a list in for loop
 
 # lambda
---> A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.
+--> A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression. works like arrow function of javascript
 
 --> map(function,interable) 
 --> filter(function,interable)
+
+# comprehension
+Comprehension in Python is a concise and powerful way to create new sequences like lists, dictionaries, or sets by processing existing iterables. They allow you to write cleaner and more readable code in just one line.
+
+Python provides the following types of comprehensions:
+
+1. List Comprehension ->[expression for item in iterable if condition]
+2. Dictionary Comprehension
+3. Set Comprehension
+4. Generator Comprehension
