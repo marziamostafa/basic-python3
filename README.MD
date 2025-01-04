@@ -76,3 +76,9 @@ https://docs.python.org/3/tutorial/datastructures.html#dictionaries
 https://docs.python.org/3/library/functions.html#enumerate
 
 enumerate() --> gives the index number of a list in for loop
+
+# lambda
+--> A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.
+
+--> map(function,interable) 
+--> filter(function,interable)
