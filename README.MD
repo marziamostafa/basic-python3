@@ -108,3 +108,14 @@ Python provides the following types of comprehensions:
 # iter()
 The iter() function in Python is used to create an iterator object from an iterable. An iterator is an object that allows you to traverse (or iterate over) all the elements in a collection (like a list, tuple, dictionary, or set) one at a time.
 it remembers which value you used last. after getting all values it will show error to 'stop iteration'. so its better to use inside a try-except block
+
+next()->in iter() to travers all the value at time we use next() [avoid list()]; We use next() in Python to manually retrieve the next item from an iterator. It is a built-in function that works with iterators, allowing you to control the iteration process step by step.
+
+# generator ; yield
+generator-->  A generator in Python is a special type of iterable that allows you to iterate over a sequence of values without storing the entire sequence in memory. Generators are defined using functions and the yield keyword. 
+
+yield -->  instead of computing all values at once and storing them in memory, it produces them one at a time as you iterate over it.When a function with a yield statement is called, it doesn't execute the function body immediately. Instead, it returns a generator object.
+
+yield is not return totally , after giving one value it waits for some time again gives another value
+
+next()--> here we also use the next() to traverse one value at a time; We use next() in Python to manually retrieve the next item from an iterator. It is a built-in function that works with iterators, allowing you to control the iteration process step by step.

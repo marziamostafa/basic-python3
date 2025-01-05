@@ -5,7 +5,7 @@
 numbers=[12,45,68,56,45,12,30]
 numbers_iter=iter(numbers)
 
-# after making iteration if we use next() it will give one value, list will make the same previous one
+# after making iteration if we use next() it will give one value, list() will make the same previous one
 print(next(numbers_iter))   #12
 print(next(numbers_iter))   #45
 print(next(numbers_iter))   #68
