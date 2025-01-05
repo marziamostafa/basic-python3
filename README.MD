@@ -104,3 +104,7 @@ Python provides the following types of comprehensions:
 5. abs() makes the number positive even if i give negative number
 6. sorted() sorts the number; sorted(x, reversed=True)
     for dictionary sorted=(x,key) ;key cannot be string, list
+
+# iter()
+The iter() function in Python is used to create an iterator object from an iterable. An iterator is an object that allows you to traverse (or iterate over) all the elements in a collection (like a list, tuple, dictionary, or set) one at a time.
+it remembers which value you used last. after getting all values it will show error to 'stop iteration'. so its better to use inside a try-except block
