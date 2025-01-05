@@ -69,6 +69,9 @@ array alike , but where can only store unique values
 3. we cannot add duplicate numbers
 4. remove() - to remove any element from the set
 5. len() - length of the set
+6. sets in Python cannot be accessed using an index number because sets are unordered collections. This means that the elements in a set do not have a specific order or index, unlike lists or tuples.
+
+
 
 # tuple
 use of '()' only ;(not [] or {}) 
@@ -82,6 +85,8 @@ https://docs.python.org/3/tutorial/datastructures.html#dictionaries
 
 del --> to delete a value from the dictionary
 
+dictionary keys in Python must be immutable. This is a strict rule, and it's essential for ensuring that dictionaries work as intended.
+
 # enumerate
 https://docs.python.org/3/library/functions.html#enumerate
 
@@ -89,6 +94,8 @@ enumerate() --> gives the index number of a list, tuple or string in the for loo
 
 # lambda
 --> A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression. works like arrow function of javascript
+
+--> lambda functions in Python do not contain explicit return statements. However, they inherently return the result of the single expression they evaluate
 
 --> map(function,interable) 
 --> filter(function,interable)
