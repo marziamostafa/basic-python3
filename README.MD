@@ -89,6 +89,8 @@ Comprehension in Python is a concise and powerful way to create new sequences li
 Python provides the following types of comprehensions:
 
 1. List Comprehension ->[expression for item in iterable if condition]
-2. Dictionary Comprehension
-3. Set Comprehension
-4. Generator Comprehension
+2. Dictionary Comprehension --> {key_expression: value_expression for item in iterable if condition}
+3. Set Comprehension  --> {expression for item in iterable if condition}
+4. Generator Comprehension  --> (expression for item in iterable if condition)
+
+@@ generator comprehension is not tuple; there is no such thing as a tuple comprehension in Python. If you want to create a tuple, you must explicitly convert the generator expression into a tuple using the tuple() function.
