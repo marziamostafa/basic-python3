@@ -75,7 +75,7 @@ https://docs.python.org/3/tutorial/datastructures.html#dictionaries
 # enumerate
 https://docs.python.org/3/library/functions.html#enumerate
 
-enumerate() --> gives the index number of a list in for loop
+enumerate() --> gives the index number of a list, tuple or string in the for loop
 
 # lambda
 --> A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression. works like arrow function of javascript
@@ -94,3 +94,13 @@ Python provides the following types of comprehensions:
 4. Generator Comprehension  --> (expression for item in iterable if condition)
 
 @@ generator comprehension is not tuple; there is no such thing as a tuple comprehension in Python. If you want to create a tuple, you must explicitly convert the generator expression into a tuple using the tuple() function.
+
+# built-in functions
+
+1. reversed() --> set ,int, float obj cannot be reversed
+2. dict() cretes a dictionary
+3. any()  returns True if at least one element in the iterable is truthy
+4. all() returns True (if all elements are truthy)
+5. abs() makes the number positive even if i give negative number
+6. sorted() sorts the number; sorted(x, reversed=True)
+    for dictionary sorted=(x,key) ;key cannot be string, list
