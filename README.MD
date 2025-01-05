@@ -8,7 +8,15 @@
 7. kargs- Tuple Parameter in Keyword Arguments; in python it's called dictionary; ('key': value) pair; used **
 8. can do for loop in kargs with kargs.items()
 9. 'global' keyword only works inside a function
+
+# built in module
 Get python built-in module list- https://docs.python.org/3/py-modindex.html 
+1. random()
+2. randint(x,y) //int range
+3. choice() ; pick a random number from given list
+4. now() -> optional time zone info in datetime
+5. ctime(), date()
+
 
 Built-in functions- https://docs.python.org/3/library/functions.html
 
@@ -72,6 +80,8 @@ use of '()' only ;(not [] or {})
 # dictionaries
 https://docs.python.org/3/tutorial/datastructures.html#dictionaries
 
+del --> to delete a value from the dictionary
+
 # enumerate
 https://docs.python.org/3/library/functions.html#enumerate
 
@@ -116,6 +126,15 @@ generator-->  A generator in Python is a special type of iterable that allows yo
 
 yield -->  instead of computing all values at once and storing them in memory, it produces them one at a time as you iterate over it.When a function with a yield statement is called, it doesn't execute the function body immediately. Instead, it returns a generator object.
 
+to end a function, returns a generator
+
 yield is not return totally , after giving one value it waits for some time again gives another value
 
 next()--> here we also use the next() to traverse one value at a time; We use next() in Python to manually retrieve the next item from an iterator. It is a built-in function that works with iterators, allowing you to control the iteration process step by step.
+
+# python keywords
+
+https://phitron.io/ph891/video/ph891-5-9-module-summary-and-python-keywords-overivew
+
+1. in / not in
+2. pass -> a hold in the function as interpreter not letting me to go forward ; a null statement that will do nothing
