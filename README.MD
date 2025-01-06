@@ -145,3 +145,15 @@ https://phitron.io/ph891/video/ph891-5-9-module-summary-and-python-keywords-over
 
 1. in / not in
 2. pass -> a hold in the function as interpreter not letting me to go forward ; a null statement that will do nothing
+
+
+# decode('UTF-8')
+response=requests.get(api_url)
+content=response.content.decode('UTF-8')
+
+--> response.content provides the data in its original byte form.
+
+-->'UTF-8' is a widely used character encoding standard for handling textual data.
+
+# download image from url
+use the write of python and write binary ('wb') the response.content
