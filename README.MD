@@ -27,6 +27,13 @@ python packages- https://pypi.org/
 
 --> check version: pip --version
 
+# library
+1. requests
+2. json
+3. PyAutoGUI
+4. OpenCV
+5. PyWallpaper
+
 
 ## PyAutoGUI
 --> PyAutoGUI is a Python library that allows you to programmatically control the mouse and keyboard to automate tasks on your computer. With PyAutoGUI, you can perform actions like moving the mouse, clicking, typing text, and interacting with the graphical user interface of applications.

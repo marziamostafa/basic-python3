@@ -5,6 +5,7 @@ problem: download and change desktop wallpaper automatically
 
 import requests
 import json
+import PyWallpaper
 
 api_url="https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"
 
@@ -24,8 +25,13 @@ print(image_url)
 
 # download the image
 res=requests.get(image_url)
-print(res)
+
 
 # save the image
 with open('apood.png','wb') as image: # wb--> w to turncate and write. b-> data is binary
     image.write(res.content)
+
+ # install PyWallpaper
+
+ # set the wallpaper
+PyWallpaper.change_wallpaper('G:\\Python_course\\week2\\apood.png')
